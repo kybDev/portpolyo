@@ -1,0 +1,44 @@
+.kyb-logo-wrapper{
+  position: relative;
+  height: 70px;
+  display: flex;
+  align-items: center;
+
+
+
+  .kyb-logo-cont{
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    // padding: 0 10px;
+    // background: #474141;
+    background: #fff;
+    // right: -29px;
+    // min-width: 400px;
+    justify-content: center;
+    // box-shadow: 5px 5px 6px -6px black;
+    width: 100%;
+
+    h1{
+      color: #474141;
+      font-family: $font-oswald;
+      letter-spacing: 2px;
+      margin: 0;
+      font-size: 1.5em;
+
+      span{
+        color:#EBB279;
+      }
+    }
+
+    // &::after {
+    //   content: "";
+    //   position: absolute;
+    //   right: 0px;
+    //   top: 100%;
+    //   border-top: 25px solid #756656;
+    //   border-right: 25px solid transparent;
+    // }
+  }
+}

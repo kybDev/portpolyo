@@ -1,0 +1,32 @@
+.kyb-profile-wrapper{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 70px;
+
+  height: 250px;
+
+  .kyb-profile-cont{
+
+    // background: #eee;
+
+    .hexagon {
+
+      position: relative;
+    
+      width: 200px; 
+      height: 200px;
+      border-radius: 50%;
+      // margin: 57.74px 0;
+      background-image: url('../../img/profile.jpg');
+      background-size: auto 221.7025px;
+      background-position: center;
+    
+     
+    }
+  }
+}
+
+
+

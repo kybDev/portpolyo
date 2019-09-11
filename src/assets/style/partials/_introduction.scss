@@ -1,0 +1,61 @@
+.kyb-intro-wrapper{
+  position: relative;
+  // align-items: center;
+  // background: #fff;
+  // justify-content: center;
+  margin: 0 auto;
+  top: 10%;
+
+
+
+
+  .kyb-intro-cont{
+    // position: absolute;
+    // left: 30px;
+    // top: -170px;
+
+    h1,h5{
+      margin: 0;
+      color: #fff;
+    }
+
+    h1{
+      font-size: 60px;
+      font-family: $font-oswald;
+    }
+
+    h5{
+      font-size: 35px;
+      font-family: $font-oswald;
+      font-weight: normal;
+      letter-spacing: 2px;
+
+      span{
+        color: #612929;
+      }
+    }
+
+    &::before{
+      content:'';
+      width: 2px;
+      height: 90%;
+      background: #000;
+      // position: relative;
+      left: -20px;
+      top:50px;
+    }
+
+    &::after{
+      content:'';
+      width: 90%;
+      height: 2px;
+      background: #000;
+      // position: relative;
+      left: -35px;
+      bottom: -10px;
+    }
+    
+  }
+
+ 
+}
