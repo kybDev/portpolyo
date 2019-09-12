@@ -1,20 +1,21 @@
 
 .kyb-nav-wrapper{
-  position: relative;
-  height: 100px;
+  position: absolute;
   display: flex;
   align-items: center;
+  right: 5%;
+  top: 40px;
   
 
   .kyb-nav-cont{
-    height: 50px;
+    height: 35px;
     position: absolute;
     display: flex;
     align-items: center;
     justify-content: flex-end;
     padding: 0 10px;
-    background: #EBB279;
-    right: -375px;
+    background: #fff;
+    // right: -375px;
     min-width: 400px;
     box-shadow: -5px 5px 5px -7px black;
 
@@ -33,7 +34,7 @@
           font-size: 20px;
           font-weight: 200;
           text-decoration: none;
-          color: #fff;
+          color: #474141;
           letter-spacing: 3px;
 
           span {
@@ -49,8 +50,8 @@
       position: absolute;
       left: 0px;
       top: 100%;
-      border-left: 25px solid transparent;
-      border-top: 25px solid #756656;
+      border-left: 16px solid transparent;
+    border-top: 11px solid #d0cfcf;
 
       
     }

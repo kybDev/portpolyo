@@ -23,8 +23,9 @@ body {
   flex: 1;
   background: rgb(235,178,121);
   background: linear-gradient(165deg, rgba(235,178,121,1) 0%, rgba(168,58,58,1) 100%);
-  // box-shadow: 5px 5px 6px -6px black;
+  box-shadow: 5px 5px 6px -6px black;
   border-right: 4px  solid #fff;
+  border-left: 4px  solid #fff;
 }
 
 .kyb-cont-right{
@@ -32,7 +33,8 @@ body {
   flex-direction: column;
   flex-basis: 100%;
   flex: 5;
-  background-color: #474141;
+  // background-color: #474141;
+  background-color: #fff;
   height: 100vh;
   
 }
