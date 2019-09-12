@@ -1,13 +1,19 @@
 import React from 'react';
-
+import { NavLink } from 'react-router-dom';
 const Navigation = () => {
   return (
     <div className="kyb-nav-wrapper">
       <nav className="kyb-nav-cont">
         <ul>
-          <li><a href="/"><span>A</span>bout</a></li>
-          <li><a href="/"><span>S</span>kills</a></li>
-          <li><a href="/"><span>W</span>orks</a></li>
+          <li>
+            <NavLink  to='/about'><span>A</span>bout</NavLink>
+          </li>
+          <li>
+            <NavLink  to='/skills'><span>S</span>kills</NavLink>
+          </li>
+          <li>
+            <NavLink  to='/works'><span>W</span>orks</NavLink>
+          </li>
         </ul>
       </nav>
     </div>
