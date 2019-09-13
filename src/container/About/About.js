@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className="grid-content">
       <div className="page-title">
-        <h1>ABOUT</h1>
+        <h1>ABOUT </h1>
       </div>
       <div>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
