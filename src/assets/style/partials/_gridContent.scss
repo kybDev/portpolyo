@@ -1,0 +1,26 @@
+.grid-content{
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 5% auto; 
+    height: calc(100vh - 70px);
+    grid-gap: 1em;
+    .page-title{
+      -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+      writing-mode: vertical-lr;
+      display: flex;
+      text-orientation: upright;
+      justify-content: center;
+      align-items: center;
+      
+      // background: #aaa;
+
+      h1 {
+        margin: auto;
+        letter-spacing: 1.8em;
+        font-family: $font-oswald;
+        font-weight: normal;
+        color: #bd6350;
+      }
+    }
+}

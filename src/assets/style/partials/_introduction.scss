@@ -4,7 +4,7 @@
   // background: #fff;
   // justify-content: center;
   margin: 0 auto;
-  top: 10%;
+  top: 50px;
 
 
 
@@ -17,6 +17,8 @@
     h1,h5{
       margin: 0;
       color: #fff;
+      text-shadow: 4px 3px 0 #b85648;
+      text-align: center;
     }
 
     h1{
@@ -32,6 +34,8 @@
 
       span{
         color: #612929;
+        font-size: 40px;
+        font-weight: bold;
       }
     }
 
