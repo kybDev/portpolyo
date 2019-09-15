@@ -1,22 +1,30 @@
 import React from 'react';
 
+import ProjectCard from './ProjectCard/ProjectCard';
+
+import { Projects } from './ConstProjec';
+
+console.log(Projects, "====")
+
+
 const Works = () => {
   return (
-    <div className="grid-content">
-      <div className="page-title">
-        <h1>WORKS</h1>
-      </div>
-        <div>
-          <div className="grid-wrapper2">
-          <div className="box box1"> Box 1</div>
-          <div className="box box2"> Box 2</div>
-          <div className="box box3"> Box 3</div>
-          <div className="box box4"> Box 4</div>
-        </div>
-      </div>
+    <content className="project-wrapper">
+      <article className="proj-article">
+        <h1>PROJECTS</h1>
+        <div className="proj-cont">
+          {
+            Projects.map((data, index) => {
+              return (
+                <ProjectCard key={index} {...data} />
+              );
+            })
+          }
 
-    </div>
-    
+        </div>
+      </article>
+    </content>
+
   );
 }
 

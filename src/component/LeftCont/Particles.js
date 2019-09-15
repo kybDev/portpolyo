@@ -1,15 +1,18 @@
 import React from 'react';
 import Particles from 'react-particles-js';
 
-const ParticlesBg = () => {
+const ParticlesBg = (props) => {
   return <Particles
     params={{
       "particles": {
         "number": {
-          "value": 100
+          "value": props.numValue
         },
         "size": {
           "value": 5
+        },
+        "color": {
+          "value": props.color
         },
         line_linked: {
           shadow: {
@@ -30,7 +33,7 @@ const ParticlesBg = () => {
     }}
     style={{
       width: '100%',
-      position: 'absolute'
+      position: 'absolute',
     }}
   />
 }

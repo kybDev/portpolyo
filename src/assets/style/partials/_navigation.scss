@@ -1,10 +1,11 @@
 
 .kyb-nav-wrapper{
-  position: absolute;
+  // position: absolute;
   display: flex;
   align-items: center;
-  right: 5%;
-  top: 40px;
+  // right: 5%;
+  left: 0;
+  margin-bottom: 40px;
   
 
   .kyb-nav-cont{
@@ -51,9 +52,8 @@
       left: 0px;
       top: 100%;
       border-left: 14px solid transparent;
-    border-top: 12px solid #d0cfcf;
+      border-top: 12px solid #d0cfcf;
 
-      
     }
   }
 

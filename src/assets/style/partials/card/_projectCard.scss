@@ -1,0 +1,118 @@
+.proj-article {
+  h1 {
+    font-family: $font-oswald;
+    font-weight: 200;
+    padding: 0 10px;
+  }
+}
+
+.proj-cont {
+  // padding: 1em;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 1em;
+  grid-auto-rows: calc(80vh - 100px);
+}
+
+.project-card {
+  padding: 10px;
+  box-shadow: 6px 6px 16px -14px rgba(223, 156, 110, 0.5);
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+
+  .card-title {
+    padding: 10px;
+    background: #ccc;
+    display: grid;
+    font-weight: normal;
+    margin-bottom: 10px;
+
+    .proj-name {
+      align-self: end;
+
+      h3 {
+        margin: 0;
+        padding: 0;
+        color: #fff;
+        font-family: $font-roboto;
+      }
+
+      a {
+        text-decoration: none;
+        color: #fff;
+        font-family: $font-oswald;
+        font-weight: 200;
+        font-size: 14px;
+      }
+    }
+  }
+
+  .card-body {
+    padding: 10px;
+    display: grid;
+    border-top: 1px solid #ccc;
+
+    .proj-info {
+      align-self: center;
+      margin-bottom: 10px;
+      display: flex;
+      p {
+        font-family: $font-oswald;
+        font-size: 14px;
+        font-weight: 100;
+        letter-spacing: 1px;
+        line-height: 24px;
+        margin: 0;
+        text-align: center;
+      }
+    }
+
+    .tech-tags {
+      align-self: end;
+      h5 {
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+        font-family: $font-oswald;
+        font-weight: 200;
+      }
+      ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+        > li {
+          float: left;
+          font-size: 12px;
+          font-family: $font-oswald;
+          font-weight: 100;
+          padding: 5px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          margin: 5px 2px;
+          padding: 5px 5px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .proj-cont {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .proj-cont {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .proj-cont {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

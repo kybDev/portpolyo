@@ -1,27 +1,30 @@
 .grid-content{
     padding: 1em;
     display: grid;
-    grid-template-columns: 55px auto; 
+    grid-template-columns: 1fr; 
     height: calc(100vh - 70px);
     grid-gap: 1em;
-    .page-title{
-      -webkit-writing-mode: vertical-lr;
-      -ms-writing-mode: tb-lr;
-      writing-mode: vertical-lr;
-      display: flex;
-      text-orientation: upright;
-      justify-content: center;
-      align-items: center;
-      
-      background: linear-gradient(95deg, #ffffff 47%, #eeeeee 121%);
+    
+}
 
-      h1 {
-        margin: auto;
-        letter-spacing: 2em;
-        font-family: $font-oswald;
-        font-weight: normal;
-        color: #555;
-        font-size: 2em;
-      }
-    }
+.page-title{
+  -webkit-writing-mode: vertical-lr;
+  -ms-writing-mode: tb-lr;
+  writing-mode: vertical-lr;
+  display: flex;
+  text-orientation: upright;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(95deg, #ffffff 47%, #eeeeee 121%);
+
+  height: 100vh;
+
+  h1 {
+    margin: auto;
+    letter-spacing: 2em;
+    font-family: $font-oswald;
+    font-weight: normal;
+    color: #555;
+    font-size: 2em;
+  }
 }
