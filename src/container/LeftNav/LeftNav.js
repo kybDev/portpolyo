@@ -15,7 +15,6 @@ const LeftNav = (props) => {
       <div className="sticky-cont">
         <Logo />
         <div>
-          {/* <Navigation onChangePage={props.onChangePage} /> */}
           <Profile />
           <Introduction />
         </div>

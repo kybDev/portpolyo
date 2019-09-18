@@ -24,9 +24,9 @@ body {
   .sticky-cont {
     width: 100%;
     position: relative;
-    height: 100vh;
+    height: auto;
     display: grid;
-    grid-template-rows: 70px auto 70px;
+    grid-template-rows: 70px 768px 70px;
   }
 }
 
@@ -38,7 +38,7 @@ body {
   // background-color: #474141;
   background-color: #fff;
   height: calc(100vh - 50px);
-  padding-top: 35px;
+  
 }
 
 @media only screen and (min-width: 768px) {
@@ -49,8 +49,14 @@ body {
   .kyb-cont-left {
     width: 295px;
     // position: fixed;
+
+    .sticky-cont {
+      grid-template-rows: 70px auto 70px;
+      height: 100vh;
+    }
   }
   .kyb-cont-right {
+    padding-top: 35px;
     overflow: hidden;
     overflow-y: scroll;
 

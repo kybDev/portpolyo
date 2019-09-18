@@ -98,20 +98,27 @@
   }
 }
 
-@media only screen and (min-width: 768px) {
+// @media only screen and (min-width: 768px) {
+//   .proj-cont {
+//     grid-template-columns: repeat(2, 1fr);
+//   }
+// }
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .proj-cont {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
   .proj-cont {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-  .proj-cont {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
   .proj-cont {
     grid-template-columns: repeat(3, 1fr);
   }
